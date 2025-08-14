@@ -1,8 +1,6 @@
-# Requisitos do Processo: Elaboração de Programas de Laminação
+# 📋 Requisitos do Processo – Faturamento Troca de Notas
 
----
-
-## 1 - Regras de Negócio
+## Regras de Negócio
 
 - **Diretórios e nomenclaturas fixos**  
   - **Caminho de rede da área  
@@ -54,7 +52,7 @@
 
 ---
 
-## 2 - Validações Necessárias
+## Validações Necessárias
 
 - **Existência de cilindros não cromados**  
   - Pelo menos um registro com coluna `Cromado = N`  
@@ -92,7 +90,7 @@
 
 ---
 
-## 3 - Saídas Esperadas
+## Saídas Esperadas
 
 - **Planilhas de programas geradas:**  
   - `Baixa Redução_DD.MM.AAAA_SEQ.xlsx`  
@@ -113,7 +111,7 @@
 
 ---
 
-## 4 - Critérios de Sucesso
+## Critérios de Sucesso
 
 - Execução automatizada sem necessidade de intervenção manual  
 - Geração de todas as planilhas previstas em cada cenário  
@@ -125,5 +123,5 @@
 
 ---
 
-**Observação:** ajustes futuros em regras, planilhas ou sistemas legados devem ser gerenciados via ticket e não diretamente no robô.
+**Observação:** melhorias futuras em regras, planilhas ou sistemas legados devem ser ajustados no robô.
 
