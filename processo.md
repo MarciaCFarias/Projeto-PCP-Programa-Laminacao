@@ -1,8 +1,13 @@
-# Análise de Processo: Elaboração de Programas de Laminação
+# 📄 Mapeamento de Processo – Elaboração de Programas de Laminação
+---
+
+## Fluxograma - Visão Macro do Processo
 
 
+<img width="1036" height="489" alt="image" src="https://github.com/user-attachments/assets/35d228f7-0888-4441-ae65-6ad9f039bc48" />
 
-## 1 – Fluxo TO BE
+
+## Fluxo TO BE
 
 1. **Consultar Cilindros**  
    **Descrição:**  
@@ -46,7 +51,7 @@
 
 ---
 
-## 2 – Melhorias implementadas no processo
+## Melhorias implementadas no processo
 
 - Automação completa do acesso e extração de dados dos sistemas legados.  
 - Padronização de filtros, ordenações e nomenclatura de arquivos, reduzindo variações manuais.  
@@ -57,7 +62,7 @@
 
 ---
 
-## 3 – Tratativas em caso de exceções
+## Tratativas em caso de exceções
 
 - **Sem cilindros válidos:** processa até validação, registra log e encerra sem gerar programa.  
 - **Alterações telas web:** captura erro, loga mensagem, notifica equipe de sustentação e aguarda correção.  
@@ -67,7 +72,7 @@
 
 ---
 
-## 4 – KPI
+## KPI
 
 - Tempo médio de ciclo por execução (minutos)  
 - Percentual de execuções sem erro (% sucesso)  
@@ -79,7 +84,7 @@
 
 ---
 
-## 5 – Observações ou destaques
+## Observações ou destaques
 
 - Processo de alto risco devido a dependência de planilhas e fórmulas; alterações exigem governança.  
 - Diretórios e nomenclaturas fixos são pontos críticos de manutenção e devem ser tratados como assets.  
